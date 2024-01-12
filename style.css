@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+link {
+    display: none;
+}
+
+body {
+    background: #271b31;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#portifolio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+#sidebar {
+    background-color: #413f3f;
+    flex: 1.1 1 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding: 3rem 0;
+    max-height: 784px;
+}
+
+#sidebar .nomeCargo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -5rem; 
+
+}
+
+#sidebar .nomeCargo img {
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+#socialNetwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+#socialNetwork .social-btn {
+    padding: 0.6rem;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialNetwork #linkedin {
+    color: #0072b1;
+}
+
+#socialNetwork #github {
+    color: #111;
+}
+
+#infoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1d1d1d;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#infoContainer .infoCard {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #444;
+    width: 100%;
+}
+
+#infoContainer .infoCard svg {
+    background-color: #111;
+    padding: 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+#infoContainer .infoCard h3 {
+    color: #a6a6a6;
+    font-size: .8rem;
+    margin-bottom: 0.5rem;
+}
+
+#infoContainer .infoCard h3 {
+    color: #fff;
+    font-weight: 700;
+}
+
+#infoContainer .infoCard #phoneIcon {
+    color: #e93b81;
+}
+

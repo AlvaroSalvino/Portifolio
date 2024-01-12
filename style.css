@@ -4,6 +4,7 @@
     font-family: Helvetica;
     box-sizing: border-box;
 }
+
 link {
     display: none;
 }
@@ -49,6 +50,26 @@ p {
     max-height: 784px;
 }
 
+#sidebar .BtDownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: left;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#sidebar .btn-curriculo {
+    padding: 1rem 1.2rem;
+    color: #fff;
+    background: linear-gradient(to bottom,rebeccapurple,steelblue,turquoise);
+    text-decoration: none;
+    border-radius: 3rem;
+    text-align: center;
+}
+
 #sidebar .nomeCargo {
     display: flex;
     flex-direction: column;
@@ -59,7 +80,7 @@ p {
 }
 
 #sidebar .nomeCargo img {
-    max-width: 70%;
+    max-width: 20%;
     border-radius: 10px;
 }
 
@@ -136,3 +157,134 @@ p {
     color: #e93b81;
 }
 
+#infoContainer .infoCard #emailIcon {
+    color: #6ab5b9;
+}
+
+#infoContainer .infoCard #pinIcon {
+    color: #c17ceb;
+}
+
+#mainContent {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+#mainContent section {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainContent h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+#mainContent h2:after {
+    content: "";
+    background: linear-gradient(to bottom,rebeccapurple,steelblue,turquoise);
+    height: 3px;
+    width: 30%;
+}
+
+#mainContent p {
+    color: #a6a6a6;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+
+#tecnologiasContainer .tecnologias-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+#tecnologiasContainer .tecnologias-grid .tec-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    width: 45%;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+#tecnologiasContainer .tecnologias-grid .tec-card h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#tecnologiasContainer .tecnologias-grid .tec-card svg {
+    font-size: 6rem;
+}
+
+#tecnologiasContainer .tecnologias-grid #python svg {
+    color: #f3da35;
+}
+
+#tecnologiasContainer .tecnologias-grid #html5 svg {
+    color: #e44d26;
+}
+
+#tecnologiasContainer .tecnologias-grid #css3 svg {
+    color: #1572b6;
+}
+
+#tecnologiasContainer .tecnologias-grid #git svg {
+    color: #f54d27;
+}
+
+#tecnologiasContainer .tecnologias-grid #mongodb svg {
+    color: #3bb54f;
+}
+
+#tecnologiasContainer .tecnologias-grid #django svg {
+    color: #355a35;
+}
+
+#tecnologiasContainer .tecnologias-grid #flask svg {
+    color: #fff;
+}
+
+#tecnologiasContainer .tecnologias-grid #sqlalchemy svg {
+    color: #fff;
+}
+
+#tecnologiasContainer .tecnologias-grid #unity3d svg {
+    color: #000000;
+}
+
+#tecnologiasContainer .tecnologias-grid #dotnet svg {
+    color: #7025e9;
+}
+
+#projetosContainer {
+    margin-bottom: 1rem;
+}
+
+#projetosContainer .projetos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+#projetosContainer a img {
+    width: 350px;
+    height: 200px;
+}
+
+#projetosContainer h3 {
+    color: #ff0000;
+    text-align: center;
+}

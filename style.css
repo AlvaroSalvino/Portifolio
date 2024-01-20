@@ -46,7 +46,7 @@ p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #000;
+    color: #ffffff;
 }
 
 #sidebar {
@@ -64,7 +64,7 @@ p {
 }
 
 #sidebar p {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 #sidebar .BtDownload {

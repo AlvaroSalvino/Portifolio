@@ -63,6 +63,10 @@ p {
     max-width: 400px;
 }
 
+#sidebar p {
+    color: rgb(255, 255, 255);
+}
+
 #sidebar .BtDownload {
     padding: 0.3rem 0.2rem;
     color: #fff;

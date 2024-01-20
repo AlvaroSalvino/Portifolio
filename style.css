@@ -10,7 +10,7 @@ link {
 }
 
 body {
-    background: #271b31;
+    background: #c8bcd3;
 }
 
 h3 {
@@ -42,7 +42,7 @@ p {
     width: 100%;
     font-size: 5rem;
     margin-bottom: 4rem;
-    background-image: linear-gradient(to bottom,rebeccapurple,steelblue,turquoise);
+    background-image: linear-gradient(to bottom,rgb(0, 14, 73),rgb(9, 71, 58),rgb(102, 8, 97));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

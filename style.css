@@ -37,6 +37,18 @@ p {
     gap: 2rem;
 }
 
+#portifolio h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    background-image: linear-gradient(to bottom,rebeccapurple,steelblue,turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #000;
+}
+
 #sidebar {
     background-color: #413f3f;
     flex: 1.1 1 0;
@@ -48,26 +60,30 @@ p {
     position: relative;
     padding: 3rem 0;
     max-height: 784px;
+    max-width: 400px;
 }
 
 #sidebar .BtDownload {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
-    text-align: left;
-    width: 80%;
-    border-radius: 5px;
-}
-
-#sidebar .btn-curriculo {
-    padding: 1rem 1.2rem;
+    padding: 0.3rem 0.2rem;
     color: #fff;
     background: linear-gradient(to bottom,rebeccapurple,steelblue,turquoise);
     text-decoration: none;
     border-radius: 3rem;
     text-align: center;
+}
+
+#sidebar .btn-curriculo {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 #sidebar .nomeCargo {
@@ -80,7 +96,7 @@ p {
 }
 
 #sidebar .nomeCargo img {
-    max-width: 20%;
+    max-width: 50%;
     border-radius: 10px;
 }
 
@@ -167,6 +183,7 @@ p {
 
 #mainContent {
     background-color: #111;
+    flex: 2 1 0;
     border-radius: 10px;
     padding: 3rem;
 }
@@ -280,8 +297,7 @@ p {
 }
 
 #projetosContainer a img {
-    width: 250px;
-    height: 250px;
+    width: 280px;
 }
 
 #projetosContainer h3 {

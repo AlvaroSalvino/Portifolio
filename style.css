@@ -163,13 +163,12 @@ p {
 }
 
 #infoContainer .infoCard h3 {
-    color: #a6a6a6;
-    font-size: .8rem;
-    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: 700;
 }
 
-#infoContainer .infoCard h3 {
-    color: #fff;
+#infoContainer .infoCard a {
+    color: #1572bb;
     font-weight: 700;
 }
 

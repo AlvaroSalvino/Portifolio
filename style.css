@@ -68,12 +68,12 @@ p {
 }
 
 #sidebar .BtDownload {
-    padding: 0.3rem 0.2rem;
     color: #fff;
     background: linear-gradient(to bottom,rebeccapurple,steelblue,turquoise);
     text-decoration: none;
     border-radius: 3rem;
     text-align: center;
+    box-sizing: content-box;
 }
 
 #sidebar .btn-curriculo {
@@ -88,6 +88,10 @@ p {
     position: relative;
     overflow: hidden;
     z-index: 1;
+}
+
+:hover.btn-curriculo {
+    zoom: 1.05;
 }
 
 #sidebar .nomeCargo {
@@ -118,22 +122,15 @@ p {
     margin: 1rem 0;
 }
 
-#socialNetwork .social-btn {
-    padding: 0.6rem;
-    background-color: #1d1d1d;
-    border-radius: 5px;
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#socialNetwork #linkedin {
+.social-btn {
     color: #0072b1;
+    padding: 10px 10px 5px;
+    background-color: #1d1d1d;
+    border-radius: 7px;
 }
 
-#socialNetwork #github {
-    color: #111;
+:hover.social-btn {
+    background-color: #271b31;
 }
 
 #infoContainer {
@@ -266,6 +263,10 @@ p {
     color: #1572b6;
 }
 
+#tecnologiasContainer .tecnologias-grid #javascript svg {
+    color: #f3da35;
+}
+
 #tecnologiasContainer .tecnologias-grid #git svg {
     color: #f54d27;
 }
@@ -314,3 +315,4 @@ p {
     text-align: center;
     text-decoration: none;
 }
+

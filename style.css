@@ -316,3 +316,68 @@ p {
     text-decoration: none;
 }
 
+@media (width >=1920px) {
+    .carousel-inner {
+        height: 43rem;
+    }
+}
+
+@media (width < 1920px) {
+    .carousel-inner {
+        height: 33rem;
+    }
+}
+
+#carrousselId1 {
+    background-image: url(https://faculdademalta.edu.br/wp-content/uploads/2024/05/pagina-inicial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+@media (width > 2000px) {
+    #carrousselId1 {
+        background-image: url(https://faculdademalta.edu.br/wp-content/uploads/2024/05/pagina-inicial-copiar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+}
+
+#carrousselId2 {
+    background-image: url(https://faculdademalta.edu.br/wp-content/uploads/2024/05/HOME-POS-2-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#carrousselId3 {
+    background-image: url(https://faculdademalta.edu.br/wp-content/uploads/2024/04/pos-combo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+/* botões do carrossel */
+.custom-carousel-control-prev,
+.custom-carousel-control-next {
+    width: 60px;
+    height: 60px;
+    /* background-color: rgb(180, 0, 0); */
+    border-radius: 50%;
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.custom-carousel-control-prev {
+    left: 10px;
+}
+
+.custom-carousel-control-next {
+    right: 10px;
+}
